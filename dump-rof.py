@@ -16,8 +16,8 @@ def main() -> None:
     if not os.path.isfile(sys.argv[1]):
         print("Error: first argument should be a path to a ROF file.")
         return
-    
-    if  os.path.exists(sys.argv[2]):
+
+    if os.path.exists(sys.argv[2]):
         print("Error: output path already exists.")
         return
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+This script lists the contents of a ROF file.
+"""
+
 import os
 import sys
 from io import BufferedReader

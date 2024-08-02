@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+This script packs a directory into a ROF file.
+"""
+
 import os
 import sys
 from io import BufferedWriter

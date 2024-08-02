@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+This script unpacks a ROF file into a directory.
+"""
+
 import os
 import sys
 from io import BufferedReader
